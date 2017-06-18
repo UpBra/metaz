@@ -81,7 +81,9 @@ NSString* const MZPresetNewNameKey = @"MZPresetNewNameKey";
     NSMutableDictionary* mutDict = [values mutableCopyWithZone:[self zone]];
     [mutDict setObject:value forKey:tag];
     [values release];
+	
     values = [mutDict copyWithZone:self.zone];
+	
     [mutDict release];
 }
 

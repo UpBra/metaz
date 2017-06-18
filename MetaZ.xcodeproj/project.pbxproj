@@ -46,7 +46,7 @@
 		1B040EC91081B3DC0027FA0D /* MetaZKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA325C410545ACA00276F57 /* MetaZKit.framework */; };
 		1B040EDD1081B4DC0027FA0D /* TagChimpPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B040EDC1081B4DC0027FA0D /* TagChimpPlugin.m */; };
 		1B040EDF1081B53F0027FA0D /* tagChimp.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B040EDE1081B53F0027FA0D /* tagChimp.png */; };
-		1B040EEE1081C0110027FA0D /* TagChimp.mzsearchprovider in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 1B040EBE1081B3C00027FA0D /* TagChimp.mzsearchprovider */; };
+		1B040EEE1081C0110027FA0D /* TagChimp.mzsearchprovider in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 1B040EBE1081B3C00027FA0D /* TagChimp.mzsearchprovider */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		1B0604AD1199E24700589ACE /* MZSearchProviderPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B0604AB1199E24700589ACE /* MZSearchProviderPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B0604AE1199E24700589ACE /* MZSearchProviderPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0604AC1199E24700589ACE /* MZSearchProviderPlugin.m */; };
 		1B069668149BD35B00B5FA90 /* MGViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B069667149BD35B00B5FA90 /* MGViewAnimation.m */; };
@@ -76,13 +76,13 @@
 		1B26BA8B164B687B00238517 /* MZComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B26BA8A164B687B00238517 /* MZComboBox.m */; };
 		1B26BAC3164C3BA400238517 /* FilesArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B26BAC2164C3BA400238517 /* FilesArrayController.m */; };
 		1B299D7314AE43900048B7C0 /* TheMovieDbSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B299D7214AE43900048B7C0 /* TheMovieDbSearch.m */; };
-		1B299DB714AE4D3A0048B7C0 /* TheMovieDb.mzsearchprovider in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 1B8CB90B14ACD62000F859F7 /* TheMovieDb.mzsearchprovider */; };
+		1B299DB714AE4D3A0048B7C0 /* TheMovieDb.mzsearchprovider in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 1B8CB90B14ACD62000F859F7 /* TheMovieDb.mzsearchprovider */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		1B2AEED611A0EC430074BAAD /* MZFileNameTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2AEED511A0EC430074BAAD /* MZFileNameTextStorage.m */; };
 		1B3185871841E167001EDE79 /* NSData+MZCleanUTF8.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3185851841E167001EDE79 /* NSData+MZCleanUTF8.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B3185881841E167001EDE79 /* NSData+MZCleanUTF8.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3185861841E167001EDE79 /* NSData+MZCleanUTF8.m */; };
 		1B31858A1841E2B0001EDE79 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3185891841E2B0001EDE79 /* libiconv.dylib */; };
 		1B3185AA1841E9D6001EDE79 /* MetaZKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA325C410545ACA00276F57 /* MetaZKit.framework */; };
-		1B3185B81841EB18001EDE79 /* OSXNotificationPlugin.mzactions in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 1B3185B21841E9D6001EDE79 /* OSXNotificationPlugin.mzactions */; };
+		1B3185B81841EB18001EDE79 /* OSXNotificationPlugin.mzactions in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 1B3185B21841E9D6001EDE79 /* OSXNotificationPlugin.mzactions */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		1B3185BB1841EB4A001EDE79 /* OSXNotificationPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3185BA1841EB4A001EDE79 /* OSXNotificationPlugin.m */; };
 		1B3185BE1841F5A1001EDE79 /* MZVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3185BC1841F5A1001EDE79 /* MZVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B3185BF1841F5A1001EDE79 /* MZVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3185BD1841F5A1001EDE79 /* MZVersion.m */; };
@@ -125,7 +125,7 @@
 		1B4C1F4116554B0600011621 /* MZHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4C1F3D1655490D00011621 /* MZHTTPRequest.m */; };
 		1B4CFFE8161CE0ED00B12009 /* AEVTBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CFF90161CDF0100B12009 /* AEVTBuilder.m */; };
 		1B4F53C4116E9F44003221B1 /* MetaZKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA325C410545ACA00276F57 /* MetaZKit.framework */; };
-		1B4F53D8116EA0BE003221B1 /* TheTVDBPlugin.mzsearchprovider in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 1B4F53C9116E9F44003221B1 /* TheTVDBPlugin.mzsearchprovider */; };
+		1B4F53D8116EA0BE003221B1 /* TheTVDBPlugin.mzsearchprovider in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 1B4F53C9116E9F44003221B1 /* TheTVDBPlugin.mzsearchprovider */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		1B4F53DF116EA1B5003221B1 /* TheTVDBPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F53DE116EA1B5003221B1 /* TheTVDBPlugin.m */; };
 		1B523C0F13F4B3F500C20B7D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B523B8813F4B39400C20B7D /* SystemConfiguration.framework */; };
 		1B523C1413FDCC9600C20B7D /* ASIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B523B5413F4B2B500C20B7D /* ASIHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -173,7 +173,7 @@
 		1B99355010AC818300E78D2D /* NSXMLNode+MZExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99354E10AC818300E78D2D /* NSXMLNode+MZExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B99355110AC818300E78D2D /* NSXMLNode+MZExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99354F10AC818300E78D2D /* NSXMLNode+MZExtensions.m */; };
 		1B9B393F106C0FA200928C83 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B9B393D106C0FA200928C83 /* Localizable.strings */; };
-		1BA325CD10545BBB00276F57 /* MetaZKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA325C410545ACA00276F57 /* MetaZKit.framework */; };
+		1BA325CD10545BBB00276F57 /* MetaZKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA325C410545ACA00276F57 /* MetaZKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		1BA325E110545CD900276F57 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		1BA3269D10546EC800276F57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BA3269B10546EC800276F57 /* InfoPlist.strings */; };
 		1BA326A010546F4600276F57 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA3269E10546F4600276F57 /* MainMenu.xib */; };
@@ -193,7 +193,7 @@
 		1BB3611C105421F100188DD1 /* FilesUndoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3611B105421F100188DD1 /* FilesUndoController.m */; };
 		1BB6BE811050BC88001D3D1D /* MZMetaSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB6BE801050BC88001D3D1D /* MZMetaSearcher.m */; };
 		1BB6BF341050E5E2001D3D1D /* sparkle_public.pem in Resources */ = {isa = PBXBuildFile; fileRef = 1BB6BF331050E5E2001D3D1D /* sparkle_public.pem */; };
-		1BB6C11F1052B1C1001D3D1D /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB6C10A1052B154001D3D1D /* Sparkle.framework */; };
+		1BB6C11F1052B1C1001D3D1D /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB6C10A1052B154001D3D1D /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		1BBB39A91087083600C9E17F /* MZPriorObserverFix.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBB39A71087083600C9E17F /* MZPriorObserverFix.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BBB39AA1087083600C9E17F /* MZPriorObserverFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBB39A81087083600C9E17F /* MZPriorObserverFix.m */; };
 		1BBC022110F640A1001DDB1C /* NSFileManager+MZAsync.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBC021F10F640A1001DDB1C /* NSFileManager+MZAsync.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -201,7 +201,6 @@
 		1BBC026010FC115F001DDB1C /* MZTaskOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBC025E10FC115F001DDB1C /* MZTaskOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BBC026110FC115F001DDB1C /* MZTaskOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBC025F10FC115F001DDB1C /* MZTaskOperation.m */; };
 		1BC0661910AE223A005C2A9F /* PresetsPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC0661710AE223A005C2A9F /* PresetsPanel.xib */; };
-		1BC0671410AE44CA005C2A9F /* presets.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC0671310AE44CA005C2A9F /* presets.png */; };
 		1BC256381192C183001B9E1E /* NSObject+WaitUntilChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BC256361192C183001B9E1E /* NSObject+WaitUntilChange.h */; };
 		1BC256391192C183001B9E1E /* NSObject+WaitUntilChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC256371192C183001B9E1E /* NSObject+WaitUntilChange.m */; };
 		1BCC97021076B73C007EFF57 /* NSInvocation+Wrapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BCC97001076B73C007EFF57 /* NSInvocation+Wrapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -232,11 +231,11 @@
 		1BD55FBF1648BD2000F9C579 /* 1.2.3 in Copy Growl Frameworks */ = {isa = PBXBuildFile; fileRef = 1B29A07314C5C9430048B7C0 /* 1.2.3 */; };
 		1BD55FC01648BD2000F9C579 /* 1.3.1 in Copy Growl Frameworks */ = {isa = PBXBuildFile; fileRef = 1B29A07114C5C9430048B7C0 /* 1.3.1 */; };
 		1BD55FE01648BD7400F9C579 /* MZMultiGrowlWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B29A06514C5C6570048B7C0 /* MZMultiGrowlWrapper.m */; };
-		1BD5604D1648CC0200F9C579 /* GrowlPlugin.mzactions in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 1BD55F8E1648BB4200F9C579 /* GrowlPlugin.mzactions */; };
+		1BD5604D1648CC0200F9C579 /* GrowlPlugin.mzactions in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 1BD55F8E1648BB4200F9C579 /* GrowlPlugin.mzactions */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		1BD560AA1648CC3400F9C579 /* MetaZKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA325C410545ACA00276F57 /* MetaZKit.framework */; };
 		1BD562111648F18900F9C579 /* MetaZKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA325C410545ACA00276F57 /* MetaZKit.framework */; };
 		1BD5622F1648F2B200F9C579 /* AlertWindowPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD5622E1648F2B200F9C579 /* AlertWindowPlugin.m */; };
-		1BD562471648F43A00F9C579 /* AlertWindowPlugin.mzactions in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 1BD562071648F17C00F9C579 /* AlertWindowPlugin.mzactions */; };
+		1BD562471648F43A00F9C579 /* AlertWindowPlugin.mzactions in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 1BD562071648F17C00F9C579 /* AlertWindowPlugin.mzactions */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		1BD6E752105DADCC00E40151 /* AddToQueue.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 1BD6E74D105DADCC00E40151 /* AddToQueue.tiff */; };
 		1BD6E753105DADCC00E40151 /* Pause.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 1BD6E74E105DADCC00E40151 /* Pause.tiff */; };
 		1BD6E754105DADCC00E40151 /* Play.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 1BD6E74F105DADCC00E40151 /* Play.tiff */; };
@@ -256,7 +255,7 @@
 		1BEA6DDD106ED8E4004B1A7F /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA6DDC106ED8E4004B1A7F /* PreferencesWindowController.m */; };
 		1BEA6E91106EF534004B1A7F /* AtomicParsleyPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA6E90106EF534004B1A7F /* AtomicParsleyPlugin.m */; };
 		1BEA6E97106EF662004B1A7F /* MetaZKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA325C410545ACA00276F57 /* MetaZKit.framework */; };
-		1BEA6F33106EF6FC004B1A7F /* AtomicParsleyPlugin.mzdataprovider in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 1BEA6E72106EF2A0004B1A7F /* AtomicParsleyPlugin.mzdataprovider */; };
+		1BEA6F33106EF6FC004B1A7F /* AtomicParsleyPlugin.mzdataprovider in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 1BEA6E72106EF2A0004B1A7F /* AtomicParsleyPlugin.mzdataprovider */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		1BEA6F9A106EFC3F004B1A7F /* MetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B119FCA104304C5004C93D3 /* MetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BEA6F9B106EFC3F004B1A7F /* MetaEdits.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B119FC7104300ED004C93D3 /* MetaEdits.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BEA6F9C106EFC3F004B1A7F /* MetaEdits.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B119FC8104300ED004C93D3 /* MetaEdits.m */; };
@@ -1096,7 +1095,6 @@
 		1BBC025E10FC115F001DDB1C /* MZTaskOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTaskOperation.h; sourceTree = "<group>"; };
 		1BBC025F10FC115F001DDB1C /* MZTaskOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTaskOperation.m; sourceTree = "<group>"; };
 		1BC0661810AE223A005C2A9F /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = App/English.lproj/PresetsPanel.xib; sourceTree = "<group>"; };
-		1BC0671310AE44CA005C2A9F /* presets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = presets.png; path = App/resources/presets.png; sourceTree = "<group>"; };
 		1BC256361192C183001B9E1E /* NSObject+WaitUntilChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WaitUntilChange.h"; sourceTree = "<group>"; };
 		1BC256371192C183001B9E1E /* NSObject+WaitUntilChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WaitUntilChange.m"; sourceTree = "<group>"; };
 		1BCC97001076B73C007EFF57 /* NSInvocation+Wrapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Wrapping.h"; sourceTree = "<group>"; };
@@ -2403,7 +2401,6 @@
 				1B03323510B14B6B00B28E3A /* RevealHover.png */,
 				1B03323610B14B6B00B28E3A /* Reveal.png */,
 				1B03323710B14B6B00B28E3A /* RevealOn.png */,
-				1BC0671310AE44CA005C2A9F /* presets.png */,
 				1BEA6DD8106ED837004B1A7F /* PreferencesWindow.xib */,
 				1B9B393D106C0FA200928C83 /* Localizable.strings */,
 				1B0DEEB8106139E8009D293F /* RotateLeft.tif */,
@@ -2749,7 +2746,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0830;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MetaZ" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2900,7 +2897,6 @@
 				1BEA6DDA106ED837004B1A7F /* PreferencesWindow.xib in Resources */,
 				1BCC990710771262007EFF57 /* FactorySettings.plist in Resources */,
 				1BC0661910AE223A005C2A9F /* PresetsPanel.xib in Resources */,
-				1BC0671410AE44CA005C2A9F /* presets.png in Resources */,
 				1B03323810B14B6B00B28E3A /* RevealHover.png in Resources */,
 				1BFEDE0218349138008A17D3 /* PosterBackgroundMultiple.png in Resources */,
 				1B03323910B14B6B00B28E3A /* Reveal.png in Resources */,
@@ -3543,6 +3539,7 @@
 					AppKit,
 					"-lz",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = AmazonPlugin;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Plugins/Amazon/**";
@@ -3572,6 +3569,7 @@
 					AppKit,
 					"-lz",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = AmazonPlugin;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Plugins/Amazon/**";
@@ -3653,6 +3651,7 @@
 					"-framework",
 					AppKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = TagChimp;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Plugins/TagChimp/**";
@@ -3678,6 +3677,7 @@
 					"-framework",
 					AppKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = TagChimp;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Plugins/TagChimp/**";
@@ -3723,6 +3723,7 @@
 					AppKit,
 				);
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.plugin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = OSXNotificationPlugin;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Plugins/OSXNotification/**";
@@ -3750,6 +3751,7 @@
 					AppKit,
 				);
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.plugin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = OSXNotificationPlugin;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Plugins/OSXNotification/**";
@@ -3778,6 +3780,7 @@
 					AppKit,
 				);
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.plugin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = OSXNotificationPlugin;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Plugins/OSXNotification/**";
@@ -3790,18 +3793,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					ppc,
-					"$(ARCHS_STANDARD_32_64_BIT)",
-				);
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 				USE_HEADERMAP = NO;
 			};
 			name = "Remote Debug";
@@ -3833,6 +3849,7 @@
 				INFOPLIST_PREFIX_HEADER = "$(CONFIGURATION_TEMP_DIR)/Plist Marcos.build/PlistMacros.h";
 				INFOPLIST_PREPROCESS = YES;
 				INSTALL_PATH = /Applications;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = MetaZ;
 				SYMROOT = /Volumes/ibsoar/Documents/MetaZ;
 			};
@@ -3866,6 +3883,7 @@
 					"-framework",
 					AppKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = MetaZKit;
 				SYMROOT = /Volumes/ibsoar/Documents/MetaZ;
 				USER_HEADER_SEARCH_PATHS = Framework/src;
@@ -3895,6 +3913,7 @@
 					"-framework",
 					MetaZKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = AtomicParsleyPlugin;
 				SKIP_INSTALL = YES;
 				SYMROOT = /Volumes/ibsoar/Documents/MetaZ;
@@ -3923,6 +3942,7 @@
 					"-framework",
 					AppKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = TagChimp;
 				SKIP_INSTALL = YES;
 				SYMROOT = /Volumes/ibsoar/Documents/MetaZ;
@@ -3954,6 +3974,7 @@
 					AppKit,
 					"-lz",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = AmazonPlugin;
 				SKIP_INSTALL = YES;
 				SYMROOT = /Volumes/ibsoar/Documents/MetaZ;
@@ -4017,6 +4038,7 @@
 					AppKit,
 					"-lz",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = TheTVDBPlugin;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Plugins/TheTVDB/**";
@@ -4044,6 +4066,7 @@
 					AppKit,
 					"-lz",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = TheTVDBPlugin;
 				SKIP_INSTALL = YES;
 				SYMROOT = /Volumes/ibsoar/Documents/MetaZ;
@@ -4070,6 +4093,7 @@
 					AppKit,
 					"-lz",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = TheTVDBPlugin;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Plugins/TheTVDB/**";
@@ -4099,6 +4123,7 @@
 					"-framework",
 					AppKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = TheMovieDb;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Plugins/TheMovieDb/**";
@@ -4124,6 +4149,7 @@
 					"-framework",
 					AppKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = TheMovieDb;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Plugins/TheMovieDb/**";
@@ -4150,6 +4176,7 @@
 					"-framework",
 					AppKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = TheMovieDb;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Plugins/TheMovieDb/**";
@@ -4187,6 +4214,7 @@
 					"-framework",
 					AppKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = MetaZKit;
 				USER_HEADER_SEARCH_PATHS = Framework/src;
 			};
@@ -4218,6 +4246,7 @@
 					"-framework",
 					AppKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = MetaZKit;
 				USER_HEADER_SEARCH_PATHS = Framework/src;
 				ZERO_LINK = NO;
@@ -4247,6 +4276,7 @@
 					AppKit,
 				);
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.plugin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = GrowlPlugin;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Plugins/Growl/**";
@@ -4274,6 +4304,7 @@
 					AppKit,
 				);
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.plugin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = GrowlPlugin;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Plugins/Growl/**";
@@ -4302,6 +4333,7 @@
 					AppKit,
 				);
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.plugin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = GrowlPlugin;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Plugins/Growl/**";
@@ -4333,6 +4365,7 @@
 					AppKit,
 				);
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.plugin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = AlertWindowPlugin;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = mzactions;
@@ -4359,6 +4392,7 @@
 					AppKit,
 				);
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.plugin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = AlertWindowPlugin;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = mzactions;
@@ -4386,6 +4420,7 @@
 					AppKit,
 				);
 				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.plugin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = AlertWindowPlugin;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = mzactions;
@@ -4416,6 +4451,7 @@
 					"-framework",
 					MetaZKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = AtomicParsleyPlugin;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = Plugins/AtomicParsley/src;
@@ -4444,6 +4480,7 @@
 					"-framework",
 					MetaZKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.metaz.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = AtomicParsleyPlugin;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = Plugins/AtomicParsley/src;
@@ -4479,6 +4516,7 @@
 				INFOPLIST_PREFIX_HEADER = "$(CONFIGURATION_TEMP_DIR)/Plist Marcos.build/PlistMacros.h";
 				INFOPLIST_PREPROCESS = YES;
 				INSTALL_PATH = /Applications;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = MetaZ;
 			};
 			name = Debug;
@@ -4509,6 +4547,7 @@
 				INFOPLIST_PREFIX_HEADER = "$(CONFIGURATION_TEMP_DIR)/Plist Marcos.build/PlistMacros.h";
 				INFOPLIST_PREPROCESS = YES;
 				INSTALL_PATH = /Applications;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.maven-group.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = MetaZ;
 			};
 			name = Release;
@@ -4517,18 +4556,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					ppc,
-					"$(ARCHS_STANDARD_32_64_BIT)",
-				);
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
@@ -4537,17 +4589,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					ppc,
-					"$(ARCHS_STANDARD_32_64_BIT)",
-				);
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx;
 				USE_HEADERMAP = NO;
 			};
 			name = Release;

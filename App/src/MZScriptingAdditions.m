@@ -596,7 +596,7 @@ const AEKeyword keyASUserRecordFields         = 'usrf';
                 AliasHandle handle = (AliasHandle)desc->dataHandle;
                 OSStatus cpyErr = FSCopyAliasInfo(handle, &t, &v, &path, NULL, NULL);
                 if(cpyErr == 0)
-                    return [NSString stringWithString:(NSString *)path];
+                    return [NSString stringWithString:CFBridgingRelease(path)];
                 MZLoggerError(@"FSCopyAliasInfo error %d", (int)cpyErr);
                 return [NSNull null];
             }

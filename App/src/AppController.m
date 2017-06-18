@@ -281,12 +281,12 @@ NSDictionary* findBinding(NSWindow* window) {
                                                                        (CFStringRef)@";/?:@&=+$,", 
                                                                         kCFStringEncodingUTF8);
 
-    query = (NSString*)encodedValue;
+	query = CFBridgingRelease(encodedValue);
     NSString* str = [NSString stringWithFormat:
         @"http://images.google.com/images?q=%@&gbv=2&svnum=10&safe=active&sa=G&imgsz=small%%7Cmedium%%7Clarge%%7Cxlarge",
         query];
-    CFRelease(encodedValue);
-    NSURL* url = [NSURL URLWithString:str];
+
+	NSURL* url = [NSURL URLWithString:str];
     [[NSWorkspace sharedWorkspace] openURL:url];
 }
 

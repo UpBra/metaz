@@ -42,7 +42,8 @@
   return [self initWithClientClass:nil];
 }
 
-- (id)initWithClientClass:(Class)clientClass {
+- (id)initWithClientClass:(Class)clientClass
+{
   if ((self = [super init])) {
     aslClientClass_ = clientClass;
     if (aslClientClass_ == nil) {

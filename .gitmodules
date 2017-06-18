@@ -3,4 +3,4 @@
 	url = https://github.com/pokeb/asi-http-request.git
 [submodule "Externals/JSONKit"]
 	path = Externals/JSONKit
-	url = https://github.com/johnezang/JSONKit.git
+	url = git@github.com:UpBra/JSONKit.git
