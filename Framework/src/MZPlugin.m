@@ -120,17 +120,14 @@
 
 - (NSView *)loadPreferencesView
 {
-    if(![self preferencesView])
-    {
+    if(![self preferencesView]) {
         NSString* nibName = [self preferencesNibName];
-        nib = [[NSNib alloc] 
-            initWithNibNamed:nibName 
-                      bundle:self.bundle];
+        nib = [[NSNib alloc] initWithNibNamed:nibName bundle:self.bundle];
         if(!nib)
             return nil;
         
         NSArray* theTopLevelObjects = nil;
-        if([nib instantiateNibWithOwner:self topLevelObjects:&theTopLevelObjects])
+        if([nib instantiateWithOwner:self topLevelObjects:&theTopLevelObjects])
             topLevelObjects = [theTopLevelObjects retain];
     }
     return [self preferencesView];
