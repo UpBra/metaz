@@ -16,11 +16,14 @@ if git show-ref --tags --quiet --verify -- "refs/tags/v$release"; then
 elif git show-ref --tags --quiet --verify -- "refs/tags/$release"; then
   TAG="$release"
 fi
+
 if [ -n "$TAG" -a "$TAG" != "$(git describe --exact-match --tags HEAD 2> /dev/null)" ]; then
   echo "Tag $TAG exists and HEAD is not on it so we can't build version $release"
   exit 1
 fi
+
 env|sort
+
 echo "#define BUILDID $buildid" > "$SCRIPT_OUTPUT_FILE_0"
 echo "#define BUILDDATE $builddate" >> "$SCRIPT_OUTPUT_FILE_0"
 echo "#define BUILDVERSION $builddate.$buildid" >> "$SCRIPT_OUTPUT_FILE_0"
